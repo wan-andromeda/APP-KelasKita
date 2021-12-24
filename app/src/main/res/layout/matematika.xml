@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/pagemat"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="350dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/VideoIntegral1"
+            android:layout_width="64dp"
+            android:layout_height="62dp"
+            android:onClick="Integral"
+            android:src="@drawable/imintegral"
+            android:text="Integral">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:text="Integral"
+            android:textSize="24dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/VideoIntegral"
+            android:layout_width="60dp"
+            android:layout_height="54dp"
+            android:onClick="Integral"
+            android:src="@drawable/video"
+            android:text="Integral">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="116dp"
+            android:layout_height="68dp"
+            android:text="Video Integral"
+            android:textSize="24dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="120dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/VideoPitagoras1"
+            android:layout_width="64dp"
+            android:layout_height="57dp"
+            android:onClick="Pitagoras"
+            android:src="@drawable/imagepita"
+            android:text="Pitagoras">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pitagoras"
+            android:textSize="24dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/VideoPitagoras"
+            android:layout_width="66dp"
+            android:layout_height="53dp"
+            android:onClick="Pitagoras"
+            android:src="@drawable/video"
+            android:text="Pitagoras">
+
+        </ImageButton>
+
+        <TextView
+            android:layout_width="128dp"
+            android:layout_height="54dp"
+            android:text="Video Phytagoras"
+            android:textSize="24dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+

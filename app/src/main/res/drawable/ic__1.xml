@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+    <path
+        android:fillColor="#195682"
+        android:name="Shape 4"
+        android:pathData="m145 101 1 131c0 0 38.5 23.8 49 60v-140c0 0 -8 -38.8 -50 -51z" />
+    <path
+        android:fillColor="#195682"
+        android:name="Shape 4 copy"
+        android:pathData="m254 103 -1 131c0 0 -38.5 23.8 -49 60v-140c0 0 8 -38.8 50 -51z" />
+    <path
+        android:fillColor="#f38120"
+        android:name="Shape 2"
+        android:pathData="m264 129v111c0 0 -40.1 25.4 -54 54c0 0 54 -42 91 -40l1 -131c0 0 -25.7 -0.7 -38 6z" />
+    <path
+        android:fillColor="#f38120"
+        android:name="Shape 2 copy"
+        android:pathData="m137 129v111c0 0 40.1 25.4 54 54c0 0 -54 -42 -91 -40l-1 -131c0 0 25.7 -0.7 38 6z" />
+    <path
+        android:fillColor="#195682"
+        android:name="Shape 3"
+        android:pathData="m312 162 -1 102c0 0 -59.9 1.5 -90 27c0 0 44 -22.6 109 -3l-1 -119c0 0 -11.2 -5.2 -17 -7z" />
+    <path
+        android:fillColor="#195682"
+        android:name="Shape 3 copy"
+        android:pathData="m88 162 1 102c0 0 59.9 1.5 90 27c0 0 -44 -22.6 -109 -3l1 -119c0 0 11.2 -5.2 17 -7z" />
+</vector>
